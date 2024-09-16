@@ -1,0 +1,6 @@
+DirectoryIndex display.php
+RewriteEngine on
+RewriteCond $1 !^(display\.php|images|css|js|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} ! -f
+RewriteCond %{REQUEST_FILENAME} ! -d
+RewriteRule ^(.*)$ ./display.php/$1 [L,QSA]

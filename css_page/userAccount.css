@@ -1,0 +1,71 @@
+.userProfile {
+  margin-left: 550px;
+  margin-top: 210px;
+}
+.styled-table {
+  font-size: 20px;
+  /* background-color: red; */
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+/* .styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+} */
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.update {
+  background-color: steelblue;
+  color: white;
+  border-radius: 5px;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  left: 5px;
+  padding: 5px;
+}
+.update a {
+  color: white;
+}
+.back {
+  background-color: rgb(231, 15, 15);
+  border-radius: 5px;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  padding: 5px;
+  left: 5px;
+}
+.back a {
+  color: white;
+}
+.back a:hover {
+  color: white;
+  text-decoration: none;
+}
+.update a:hover {
+  color: white;
+  text-decoration: none;
+}

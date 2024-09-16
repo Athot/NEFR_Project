@@ -1,0 +1,141 @@
+:root{
+    --main-color:#d3ad7f
+    --green:#7FFF00;
+    --black:
+    --white:#fff;
+    --peru:#5290cd;
+
+    --bg:#dae762;
+    --border:.1rem solid rgba(214, 193, 129, 0.3);
+    --black:#222;
+    --border:.1rem solid #aaa;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --dark-bg:rgba(0,0,0,.7);
+    --light-white:#ccc;
+
+}
+.add-recipe-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* right: 10%; */
+    transform: translate(-50%, -50%);
+    width: 50rem;
+    background-color: #8dde7b;
+    border-radius: 9px;
+    padding: 3rem 5rem;
+    box-shadow: 0 4rem 6rem rgba(44, 156, 24, 0.25);
+    z-index: 1000;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+  }
+
+  .btn--close-modal {
+    font-family: inherit;
+    color: inherit;
+    position: absolute;
+    top: 0.5rem;
+    right: 1.6rem;
+    font-size: 3.5rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    z-index: 100;
+    /* transition: all 0.5s; */
+  }
+
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  
+
+	  body {
+      background: rgb(236, 225, 225);
+  }
+   #content{
+   	width: 80%;
+   	margin: 20px auto;
+   	border: 1px solid #7FFF00;
+    /* weight:100px; */
+	background-color:#FFEFD5;
+	   /* text-shadow: 0.5rem 1rem rgba(0,0,0,.7);  */
+	   /* display:flex; */
+   }
+   form{
+   	width: 100%;
+   	margin: 100px auto;
+   }
+   form div{
+   	margin-top: 5px;
+   }
+   /* #img_div{
+   	width: 100%;
+   	padding: 5px;
+   	margin: 15px auto;
+   	border: 1px solid #cbcbcb;
+   }
+   #img_div:after{
+   	content: "";
+   	display: block;
+   	clear: both;
+   }
+ #img-1{
+     color: rgb(17, 0, 255);
+     width: 500px;
+     font-size: 18rem; 
+   } */
+
+
+
+
+
+/* 
+   img{
+   	 float: right; 
+	   display:flex;
+   	margin: 10px;
+   	width: 100px;
+   	height: 50px;
+   } */
+
+   button{
+	   cursor: pointer;
+	   /* padding:10 2px; */
+	   display:flex;
+	   width:90px;
+	   border-radius: 4rem;
+	  background-color:#98FB98;
+
+   }
+.upload{
+    /* position: fixed; */
+    
+       /* width:100vh; */
+       
+       background-color: #dad670;
+   }
+   .btn{
+       background: #fff;
+       background-color: #FF4500;
+       font-size: 1.5rem;
+       padding:5px 20px;
+       border-radius: 3rem;
+   }
+  
+
+   #style{
+    background: #fff;
+   }
